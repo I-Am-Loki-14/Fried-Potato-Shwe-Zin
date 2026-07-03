@@ -25,6 +25,7 @@ body {
   background: linear-gradient(180deg, #fffcec 0%, #fff4b3 100%);
   color: var(--text-color);
 }
+
 .container h2 {
   padding: 1rem 0;
 }
@@ -110,6 +111,7 @@ h6 {
   place-items: center;
   text-align: center;
   padding: 4rem 0;
+  background-color: gainsboro;
 }
 .hero-content h1 {
   font-size: clamp(2.5rem, 5vw, 4rem);
@@ -301,4 +303,92 @@ h6 {
     width: 44px;
     height: 44px;
   }
+}
+
+/* 🧮 Calculate Section ပုံစံချခြင်း */
+#calculate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.promo-box {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  padding: 2.5rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 2px solid #f3e5d8;
+  text-align: center;
+}
+
+.promo-box h3 {
+  color: #8b5a2b;
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.promo-subtitle {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.input-group input[type="number"] {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.input-group input[type="number"]:focus {
+  border-color: #debc85;
+}
+
+.result-panel {
+  background-color: #fff9f0;
+  border: 1px dashed #debc85;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  margin-top: 1.5rem;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-amount {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #2d3748;
+  margin-bottom: 0.3rem;
+}
+
+.marketing-note {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #a0a0a0; /* Default အရောင် */
 }

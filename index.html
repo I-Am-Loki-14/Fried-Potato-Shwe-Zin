@@ -137,6 +137,26 @@
                 </div>
             </div>
         </section>
+
+        <section id="calculate">
+            <div class="promo-box">
+                <h3>🛒 လျော့စျေးယူရန်တွက်မည်</h3>
+                <p class="promo-subtitle">(၅ ထုပ်တိုးတိုင်း ၅၀၀ ကျပ်စီ ပိုလျှော့ပေးမှာနော် 🤩)</p>
+
+                <div class="input-group">
+                    <label for="quantity">စုစုပေါင်း အထုပ်အရေအတွက် -</label>
+
+                    <input type="number" id="quantity" min="0" value="0" onkeydown="blockMinus(event)"
+                        oninput="calculatePrice()">
+                </div>
+
+                <div class="result-panel">
+                    <div class="total-amount" id="totalDisplay">0 ကျပ်</div>
+                    <div class="marketing-note" id="noteDisplay">အရေအတွက် ရိုက်ထည့်ပါ သို့မဟုတ် အပေါ်ကခလုတ်နှိပ်ပါ။
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- contact section  -->
         <section id="contact" class="page-section">
             <div class="container contact-inner">
