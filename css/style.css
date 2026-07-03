@@ -305,6 +305,28 @@ h6 {
   }
 }
 
+/* Make images responsive on all screen sizes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card img {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.hero-section img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  object-fit: cover;
+}
+
 /* 🧮 Calculate Section ပုံစံချခြင်း */
 #calculate {
   width: 100%;
